@@ -1,4 +1,4 @@
-# Manage Cloud Machines
+# Seat Allocation in Aircraft
 
 The project is for seat allocation in aircraft.
 
