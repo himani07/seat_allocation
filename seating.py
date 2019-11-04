@@ -75,20 +75,10 @@ def allocate_seat(number_of_seats):
     return result
 
 
-#for i in range(9):
 if allocate_seat(4):
     print("allocated", allocate_seat(4))
 else:
     print('Can not allocate seats')
-print("allocated", allocate_seat(3))
-#print("allocated", allocate_seat(3))
-print("allocated", allocate_seat(2))
-print("allocated", allocate_seat(2))
-#print("allocated", allocate_seat(4))
-print("allocated", allocate_seat(1))
-result = allocate_seat(3)
-if result:
-    print("allocated", result)
-else:
-    print('Can not allocate seats')
+
+
 
