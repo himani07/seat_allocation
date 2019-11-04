@@ -75,10 +75,13 @@ def allocate_seat(number_of_seats):
     return result
 
 
-if allocate_seat(4):
-    print("allocated", allocate_seat(4))
-else:
-    print('Can not allocate seats')
+num_of_booking = int(input("Enter number of bookings"))
+for booking in range(num_of_booking):
+    num_seats = int(input("Enter number of seats"))
+    if allocate_seat(num_seats):
+        print("allocated", allocate_seat(num_seats))
+    else:
+        print('Can not allocate seats')
 
 
 
